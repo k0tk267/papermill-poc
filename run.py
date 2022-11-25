@@ -4,7 +4,7 @@ import os
 from datetime import datetime as dt
 
 load_dotenv()
-PROJECT_PATH=os.environ["PROHECT_PATH"]
+PROJECT_PATH=os.environ["PROJECT_PATH"]
 
 timestamp = dt.now().strftime('%Y-%m-%d-%Hh-%Mm')
 
