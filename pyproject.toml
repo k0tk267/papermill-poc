@@ -8,6 +8,7 @@ packages = [{include = "papermill_poc"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+papermill = {extras = ["all"], version = "^2.4.0"}
 
 
 [build-system]
