@@ -9,7 +9,11 @@ packages = [{include = "papermill_poc"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 papermill = {extras = ["all"], version = "^2.4.0"}
+python-dotenv = "^0.21.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
 
 [build-system]
 requires = ["poetry-core"]
